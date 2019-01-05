@@ -12,30 +12,29 @@ html{background-color:#FFF;
 body{background-image:url(../images/bg.jpg);
 	background-size:cover;
 	background-position:center;
-	font-family:"Lantinghei SC","Hiragino Sans GB","Microsoft Yahei",SimHei}
+	font-size:13px; 
+	font-family:"Microsoft Yahei",SimHei;}
 
 header h1{display:none}
-
-header .logo{-webkit-transition:all .3s;-moz-transition:all .3s;-o-transition:all .3s;transition:all .3s;position:fixed;left:50px;top:40px;width:140px}header .logo>img{width:100%;height:auto}
 
 .qrcode{
 	-webkit-transition:all .3s;
 	-moz-transition:all .3s;
 	-o-transition:all .3s;
 	transition:all .3s;
-	width:210px;
-	height:280px;
+	width:80px;
+	height:80px;
 	position:absolute;
 	left:50%;top:47%;
 	margin-left:-105px;
-	margin-top:-140px;text-align:center;font-size:19px}.qrcode img{width:100%;max-width:260px;height:auto}
+	margin-top:-140px;text-align:center;font-size:13px}.qrcode img{width:100%;max-width:260px;height:auto}
 
 footer{
 	position:fixed;
 	bottom:0;
 	left:0;
 	right:0;
-	font-size: 14px; 
+	font-size: 13px; 
 	text-align: center;}
 
 
