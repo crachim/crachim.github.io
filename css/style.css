@@ -13,21 +13,9 @@ body{background-image:url(../images/bg.jpg);
 	background-size:cover;
 	background-position:center;
 	font-size:13px; 
-	font-family:"Microsoft Yahei",SimHei;}
+	font-family: -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', sans-serif;}
 
 header h1{display:none}
-
-.qrcode{
-	-webkit-transition:all .3s;
-	-moz-transition:all .3s;
-	-o-transition:all .3s;
-	transition:all .3s;
-	width:80px;
-	height:80px;
-	position:absolute;
-	left:50%;top:47%;
-	margin-left:-105px;
-	margin-top:-140px;text-align:center;font-size:13px}.qrcode img{width:100%;max-width:260px;height:auto}
 
 footer{
 	position:fixed;
@@ -35,9 +23,12 @@ footer{
 	left:0;
 	right:0;
 	font-size: 13px; 
-	text-align: center;}
+	color: #acacac;
+	text-shadow:1px 1px 1px #000000;
+	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', sans-serif;}
 
 
-
-
-
+.middle-box{height:900px; width: 1080px; margin: 0 auto; text-align: center; }
+.middle-box img{vertical-align: middle; }
+.visible{height: 100%; vertical-align: middle; width: 0; display: inline-block;}
