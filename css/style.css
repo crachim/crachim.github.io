@@ -5,11 +5,11 @@
 	height:100%}
 
 html{background-color:#FFF;
-	background-image:url(../images/bg.jpg);
+	background-image:url(http://cdn.crachim.com/github_bg.jpg);
 	background-size:cover;
 	background-position:center}
 
-body{background-image:url(../images/bg.jpg);
+body{background-image:url(http://cdn.crachim.com/github_bg.jpg);
 	background-size:cover;
 	background-position:center;
 	font-size:13px; 
@@ -28,7 +28,3 @@ footer{
 	text-align: center;
 	font-family: -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', sans-serif;}
 
-
-.middle-box{height:900px; width: 1080px; margin: 0 auto; text-align: center; }
-.middle-box img{vertical-align: middle; }
-.visible{height: 100%; vertical-align: middle; width: 0; display: inline-block;}
